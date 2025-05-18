@@ -10,11 +10,11 @@ with open("best_kidney_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="CKD CSV Predictor", layout="wide")
-st.title("🧪 Chronic Kidney Disease Prediction from CSV")
-st.write("Upload a CSV file with 25 features to predict CKD and view visual summaries.")
+st.title("🧪 Chronic Kidney Disease Prediction ")
+st.write("Upload a CSV file with  to predict CKD and view visual summaries.")
 
 # Upload CSV
-uploaded_file = st.file_uploader("📤 Upload CSV file (25 columns expected)", type="csv")
+uploaded_file = st.file_uploader("📤 Upload CSV file ", type="csv")
 
 if uploaded_file is not None:
     try:
