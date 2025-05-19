@@ -10,7 +10,7 @@ with open("best_kidney_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="CKD CSV Predictor", layout="wide")
-st.title("🧪 Chronic Kidney Disease Prediction ")
+st.title("🧪 Chronic Kidney Disease model tester")
 st.write("Upload a CSV file with  to predict CKD and view visual summaries.")
 
 # Upload CSV
